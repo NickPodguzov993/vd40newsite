@@ -1,17 +1,22 @@
-import { useState } from 'react'
-import './App.css'
-import Header from "./Components/Header";
+import './App.scss'
+import Header from "./Components/Header/Header";
+import Content from "./Components/Content/Content";
+import Main from "./Components/Main/Main";
+import Casinos from "./Components/Casino/Casinos";
+import Vantagens from "./Components/Vantagens/Vantagens";
+import GameDescription from "./Components/GameDescription/GameDiscription";
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-<div>
-    <Header/>
-</div>
-    </>
-  )
+    return (
+        <div className='container'>
+            <Header/>
+            <Main/>
+            <Casinos/>
+            <Content/>
+            <GameDescription/>
+        </div>
+    )
 }
 
 export default App

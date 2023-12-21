@@ -1,0 +1,38 @@
+.mainImage {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.buttons {
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  height: 450px;
+}
+
+.btn {
+  border-radius: 30px;
+  background: var(--Accent, #FFE500);
+  display: flex;
+  height: 51px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 268px;
+ margin-top: 10px;
+  margin-left: 16px;
+}
