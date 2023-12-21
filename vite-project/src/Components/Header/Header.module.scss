@@ -17,5 +17,38 @@ background-color: rgba(255, 255, 255, 0.90);
 .img {
  width: 144.361px;
  height: 64px;
+ margin-right: 576px;
+}
 
+.point {
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 900;
+ line-height: normal;
+ padding: 16px;
+}
+
+.btn {
+ border-radius: 30px;
+ background: var(--Accent, #FFE500);
+ display: flex;
+ height: 48px;
+ padding: 16px 32px;
+ justify-content: center;
+ align-items: center;
+ font-size: 16px;
+ font-weight: 900;
+ margin-left: 16px;
+ margin-top: 3px;
+}
+
+.menu {
+ display: flex;
+ padding: 16px;
+ height: 50px;
+ align-items: center;
+ gap: 10px;
+ border-radius: 20px;
+ background: var(--Accent, #FFE500);
+ margin-right: 36px;
 }
