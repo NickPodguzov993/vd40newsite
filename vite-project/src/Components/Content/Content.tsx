@@ -12,6 +12,7 @@ import style from './Content.module.scss'
 import Provedor from "../Provedor/Provedor";
 import Multiplicator from "./Multiplicator/Multiplicator";
 import ContentPart from "./ContentPart/ContentPart";
+import LIstCasino from "./ListCasino/LIstCasino";
 
 const Content = () => {
     return (
@@ -61,6 +62,7 @@ const Content = () => {
                      description={'PG Soft, muitas vezes referida como Pocket Games Soft, é uma empresa em rápido crescimento no sector do desenvolvimento de jogos de casino. Com licenças da Malta Gaming Authority e da UK Gambling Commission, a PG SOFT está a trabalhar arduamente para realizar os seus produtos.\n' +
                          'A PG Soft mostra realmente a sua excelência em fornecer um ambiente de jogo seguro e justo. Todas as suas slots são examinadas pelos laboratórios BMM e GA Tasting Labs, de modo a que cada volta da slot machine seja completamente aleatória e equitativa.\n' +
                          'O Super Mega Ganho Tigre lhe dá a oportunidade de obter um grande prêmio mesmo sem uma aposta significativa. Isso significa que você pode apostar apenas alguns centavos e ainda assim obter um maravilhoso Super Mega Ganho nesse jogo do tigre. Portanto, esse é o cobiçado prêmio que todo jogador almeja.'}/>
+       <LIstCasino/>
         <ContentPart title={'Como escolher a melhor plataforma? [h2]'}
                      description={'A escolha da melhor plataforma para jogar caça-níqueis no Brasil requer a consideração de vários fatores. Aqui estão algumas dicas para ajudá-lo a escolher:\n' +
                          'Certifique-se de que o cassino escolhido tenha um jogo Fortune Tiger. Basta digitar o nome do caça-níquel no campo de busca da plataforma do cassino.\n' +
