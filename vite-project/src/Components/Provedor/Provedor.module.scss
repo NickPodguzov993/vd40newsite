@@ -1,0 +1,33 @@
+.container {
+  width: 800px;
+  padding: 32px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 48px;
+  border-radius: 40px;
+  background: var(--Back, #F5F5F5);
+}
+
+.content {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  margin-right: 32px;
+}
+
+.provedor {
+  width: 574px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}

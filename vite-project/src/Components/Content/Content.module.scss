@@ -1,0 +1,34 @@
+.contentBtn {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Accent, #FFE500);
+  width: 800px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-bottom: 48px;
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 64px;
+  border-radius: 80px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.blackCube {
+  width: 24px;
+  height: 24px;
+  background-color: #212121;
+}

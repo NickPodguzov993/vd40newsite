@@ -8,7 +8,7 @@ const ContentSection = ({image, description, title}: ContentSectionType) => {
     return (
         <div className={style.contentSection}>
             <h2 className={style.title}>{title}</h2>
-            <img className='@apply w-[884px] h-[572px]' src={image}/>
+            <img className={style.image} src={image}/>
             <div className={style.description}>{description}</div>
         </div>
     );

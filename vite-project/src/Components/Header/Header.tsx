@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className={style.header}>
             <button className={style.menu}><img src={menu} alt=""/></button>
-            <img className={style.img}  src={smallTiger} alt="tiger"/>
+            <img className={style.img} src={smallTiger} alt="tiger"/>
             <div className={style.navBar}>
                 <div className={style.point}>Point</div>
                 <div className={style.point}>Point</div>
@@ -14,8 +14,6 @@ const Header = () => {
                 <div className={style.point}>Point</div>
                 <div className={style.btn}>Button</div>
             </div>
-
-            <div></div>
         </div>
     );
 };

@@ -1,0 +1,37 @@
+.container {
+  padding-left: 37px;
+}
+
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 40px;
+  background: #D9D9D9;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.stars {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.btn {
+  display: flex;
+  height: 51px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 30px;
+  background: #FFE500;
+  width: 180px;
+}

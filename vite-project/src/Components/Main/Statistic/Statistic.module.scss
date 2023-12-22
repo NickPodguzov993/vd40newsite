@@ -3,4 +3,54 @@
   border-radius: 40px;
   width: 884px;
   margin-left: 20px;
+  padding: 32px;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.votes {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.minTitle {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.minTitleBold {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 205px;
+  margin-bottom: 34px;
+
+}
+
+.blockContainer {
+  display: flex;
+}
+
+.description {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
 }

@@ -1,12 +1,12 @@
-
+import style from '../CasinoCard/CasinoCard.module.scss'
 
 const CasinoCard = () => {
     return (
-        <div>
-            <img src="" alt=""/>
-            <h3>Casino Name</h3>
-            <img src="" alt="stars"/>
-           <button>Button</button>
+        <div className={style.container}>
+            <div className={style.img}></div>
+            <h3 className={style.title}>Casino Name</h3>
+            <p className={style.stars}>⭐⭐⭐🌟</p>
+           <button className={style.btn}>Button</button>
         </div>
     );
 };
