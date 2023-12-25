@@ -27,7 +27,8 @@ const Content = () => {
         <div className={style.container}>
             <div onClick={changeBurgerMenu} className={style.btn}>
                 <div   className={style.contentBtn}>Contente</div>
-                {showMenu && <div>saxasx</div>}
+                {showMenu && <div>sfsfd
+                </div>}
                 <div className={style.blackCube}></div>
             </div>
 

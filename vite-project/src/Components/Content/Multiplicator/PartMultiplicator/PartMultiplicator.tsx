@@ -1,10 +1,17 @@
 import style from '../PartMultiplicator/PartMultiplicator.module.scss'
-const PartMultiplicator = () => {
+
+type PartMultiplicatorType = {
+    img:string
+    title: string
+    xx: string
+}
+
+const PartMultiplicator = ({img,title,xx}:PartMultiplicatorType) => {
     return (
         <div className={style.container}>
-           <div></div>
-            <p>имя символа</p>
-            <p>мультипликатор</p>
+           <div><img src={img}/></div>
+            <p>{title}</p>
+            <p>{xx}</p>
         </div>
     );
 };

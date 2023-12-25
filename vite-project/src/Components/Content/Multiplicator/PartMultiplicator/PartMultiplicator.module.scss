@@ -2,8 +2,16 @@
   width: 800px;
   height: 100px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: stretch;
   margin: 0 auto;
   background-color: #F5F5F5;
   margin-bottom: 8px;
   margin-top: 8px;
+  border-radius: 20px;
+  img {
+    width: 91.324px;
+    height: 100px;
+  }
 }

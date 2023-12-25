@@ -11,10 +11,12 @@ background-color: #F5F5F5;
   height: 160px;
   border-radius: 30px;
   background: #D9D9D9;
+  img {
+    border-radius: 30px;
+  }
 }
 
 .title {
-  font-family: Inter;
   font-size: 40px;
   font-weight: 900;
   color: #212121;
@@ -28,4 +30,17 @@ background-color: #F5F5F5;
 
 .button {
 margin-left: 16px;
+  display: flex;
+  height: 48px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #FFE500;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-left: 190px;
 }

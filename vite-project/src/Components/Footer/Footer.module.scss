@@ -38,8 +38,6 @@
   .imageContent {
     width: 64px;
     height: 64px;
-    border-radius: 20px;
-    background: #D9D9D9;
   }
 }
 
@@ -53,7 +51,8 @@
   .casinoContent {
     width: 160px;
     height: 80px;
-    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -1,4 +1,4 @@
-import smallTiger from '../../assets/smallTiger.png'
+import smallTiger from '../../assets/smallTiger.webp'
 import style from './Header.module.scss'
 import menu from '../../assets/menuButton.svg'
 import {useState} from "react";
