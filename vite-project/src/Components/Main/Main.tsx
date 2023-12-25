@@ -13,7 +13,7 @@ const Main = () => {
                 <div className={style.buttons}>
                     <img src={tiger} alt=""/>
                     <button className={style.btn}>Button</button>
-                    <button className={style.btn}>Button</button>
+                    <button className={style.btn}>Jogar</button>
                 </div>
                <Statistic/>
             </div>
