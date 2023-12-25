@@ -1,0 +1,24 @@
+.content {
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid var(--Accent, #FFE500);
+  padding: 16px;
+  margin-top: 16px;
+}
+
+
+.contentPart {
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+}
+
+.description {
+  white-space: pre-line
+}

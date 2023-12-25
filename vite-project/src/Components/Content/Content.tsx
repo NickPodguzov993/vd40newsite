@@ -13,6 +13,7 @@ import Provedor from "../Provedor/Provedor";
 import Multiplicator from "./Multiplicator/Multiplicator";
 import ContentPart from "./ContentPart/ContentPart";
 import LIstCasino from "./ListCasino/LIstCasino";
+import DescriptionHeading from "../DescriptionHeading/DescriptionHeading";
 
 const Content = () => {
     return (
@@ -71,6 +72,7 @@ const Content = () => {
                          'Bônus e promoções: Verifique se a plataforma oferece bônus e promoções atraentes para os jogadores, mas leia os termos e condições para entender os requisitos de apostas.\n' +
                          'Avaliações e reputação: Pesquise as avaliações de outros jogadores e a reputação da plataforma para ter uma ideia de sua confiabilidade.\n' +
                          'Lembre-se de que o jogo deve ser uma forma de entretenimento e deve ser praticado com responsabilidade. Nunca gaste mais dinheiro do que você pode se dar ao luxo de perder.'}/>
+        <DescriptionHeading/>
         </div>
     );
 };

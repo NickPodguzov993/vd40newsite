@@ -1,0 +1,25 @@
+.container {
+  width: 1200px;
+  border-radius: 80px;
+  background: var(--Back, #FFF);
+  padding: 64px;
+  margin:  0 auto;
+  margin-top:80px;
+
+  .navBar {
+    display: flex;
+    div {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+
+  }
+
+  .img {
+    width: 144.361px;
+    height: 64px;
+    margin-right: 130px;
+  }
+}
