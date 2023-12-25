@@ -5,16 +5,20 @@
   padding: 64px;
   margin:  0 auto;
   margin-top:80px;
+  p {
+    margin-bottom: 32px;
+  }
 
   .navBar {
     display: flex;
-    div {
+    margin-bottom: 32px;
+    .partNav {
       font-size: 16px;
       font-style: normal;
       font-weight: 900;
       line-height: normal;
+      padding: 16px;
     }
-
   }
 
   .img {
@@ -23,3 +27,33 @@
     margin-right: 130px;
   }
 }
+
+.imageContentBar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 64px;
+  align-self: stretch;
+  margin-bottom: 32px;
+  .imageContent {
+    width: 64px;
+    height: 64px;
+    border-radius: 20px;
+    background: #D9D9D9;
+  }
+}
+
+.casinoBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-bottom: 32px;
+
+  .casinoContent {
+    width: 160px;
+    height: 80px;
+    background: #D9D9D9;
+  }
+}
+

@@ -1,0 +1,36 @@
+.container {
+  width: 288px;
+  height: 788px;
+ position: absolute;
+  border-radius: 30px;
+  top: 90px;
+  background-color: #FFFFFF;
+  display: flex;
+  padding: 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  overflow-y: scroll;
+
+  h2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 16px;
+  }
+
+  h3 {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 16px;
+  }
+}
+
+.container::-webkit-scrollbar {
+  width: 0;
+}

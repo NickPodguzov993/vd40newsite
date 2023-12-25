@@ -1,5 +1,6 @@
 import style from './AccordionHeading.module.scss'
 import plus from '../../../assets/blackPlus.svg'
+import {useState} from "react";
 
 type AccordionHeadingType = {
     title:string
@@ -8,15 +9,30 @@ type AccordionHeadingType = {
 
 
 const AccordionHeading = ({title,description}:AccordionHeadingType) => {
-    return (
-        <div className={style.content}>
-            <div className={style.contentPart}>
-                <h2>{title}</h2>
-                <button><img src={plus}/></button>
-            </div>
+    const [showMenu, setShowMenu] = useState(false)
 
-            <p className={style.description}>{description}</p>
+    const changeMenu = () => {
+        setShowMenu(!showMenu)
+    }
+
+    return (
+        <div>
+            {
+                showMenu ? <div className={style.content}>
+                    <div className={style.contentPart}>
+                        <h2>{title}</h2>
+                        <button onClick={changeMenu}><img src={plus}/></button>
+                    </div>
+                    <p className={style.description}>{description}</p>
+                </div> : <div className={style.content}>
+                    <div className={style.contentPart}>
+                        <h2>{title}</h2>
+                        <button onClick={changeMenu}><img src={plus}/></button>
+                    </div>
+                </div>
+            }
         </div>
+
     );
 };
 
