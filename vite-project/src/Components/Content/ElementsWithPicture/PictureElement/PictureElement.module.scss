@@ -1,0 +1,25 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      width: 384px;
+    }
+      img {
+        width: 384px;
+        height: 293.647px;
+      }
+  }
+}

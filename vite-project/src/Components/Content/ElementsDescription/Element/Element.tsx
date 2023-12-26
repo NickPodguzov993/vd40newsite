@@ -1,4 +1,4 @@
-
+import style from '../Element/Element.module.scss'
 
 type ElementType = {
     title:string
@@ -6,9 +6,9 @@ type ElementType = {
 }
 const Element = ({title,description}:ElementType) => {
     return (
-        <div>
-            <h2>{title}</h2>
-            <p>{description}</p>
+        <div className={style.container}>
+            <h2 className={style.title}>{title}</h2>
+            <p className={style.description}>{description}</p>
         </div>
     );
 };

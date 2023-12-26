@@ -1,10 +1,11 @@
 import style from '../Provedor/Provedor.module.scss'
+import img from '../../assets/fortune-tiger-provedor.webp'
 
 const Provedor = () => {
     return (
         <div className={style.container}>
             <div className={style.content}>
-
+                <img src={img}/>
             </div>
             <div className={style.provedor}>
                 <h2 className={style.title}>Provedor</h2>

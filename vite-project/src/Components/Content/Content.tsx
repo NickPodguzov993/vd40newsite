@@ -9,7 +9,7 @@ import Tiger12 from '../../assets/12.webp'
 import Tiger5 from '../../assets/tiger5.webp'
 import Tiger6 from '../../assets/tiger6.webp'
 import Tiger7 from '../../assets/tiger7.webp'
-import  tigerSmall from '../../assets/9small.webp'
+import tigerSmall from '../../assets/9small.webp'
 import Vantagens from "../Vantagens/Vantagens";
 import SectionWithDescription from "../SectionWithDescription/SectionWithDescription";
 import style from './Content.module.scss'
@@ -21,6 +21,9 @@ import DescriptionHeading from "../DescriptionHeading/DescriptionHeading";
 import {useState} from "react";
 import ListItems from "./ListItems/ListItems";
 import DescriptionAboutPlatform from "./DescriptionAboutPlatform/DescriptionAboutPlatform";
+import ElementsDescription from "./ElementsDescription/ElementsDescription";
+import ElementsWithPicture from "./ElementsWithPicture/ElementsWithPicture";
+import TitleWithDescription from "./TitleWithDescription/TitleWithDescription";
 
 const Content = () => {
     const [showMenu, setShowMenu] = useState(false)
@@ -30,7 +33,7 @@ const Content = () => {
     return (
         <div className={style.container}>
             <div onClick={changeBurgerMenu} className={style.btn}>
-                <div   className={style.contentBtn}>Contente</div>
+                <div className={style.contentBtn}>Contente</div>
                 {showMenu && <div>sfsfd
                 </div>}
                 <div className={style.blackCube}></div>
@@ -102,13 +105,13 @@ const Content = () => {
                              'O Super Mega Ganho Tigre lhe dá a oportunidade de obter um grande prêmio mesmo sem uma aposta significativa. Isso significa que você pode apostar apenas alguns centavos e ainda assim obter um maravilhoso Super Mega Ganho nesse jogo do tigre. Portanto, esse é o cobiçado prêmio que todo jogador almeja.'}/>
             <LIstCasino/>
             <DescriptionAboutPlatform title={'Como escolher a melhor plataforma?'}
-            description={'A escolha da melhor plataforma para jogar caça-níqueis no Brasil requer a consideração de vários fatores. Aqui estão algumas dicas para ajudá-lo a escolher:\n' +
-                '1. Certifique-se de que o cassino escolhido tenha um jogo Fortune Tiger. Basta digitar o nome do caça-níquel no campo de busca da plataforma do cassino.\n' +
-                '2. Métodos de pagamento: Certifique-se de que a plataforma ofereça métodos de pagamento seguros e convenientes para depósitos e saques.\n' +
-                '3. Suporte ao cliente: Uma boa plataforma deve ter um suporte ao cliente eficiente e ágil para ajudar com quaisquer problemas ou dúvidas.\n' +
-                '4. Bônus e promoções: Verifique se a plataforma oferece bônus e promoções atraentes para os jogadores, mas leia os termos e condições para entender os requisitos de apostas.\n' +
-                '5. Avaliações e reputação: Pesquise as avaliações de outros jogadores e a reputação da plataforma para ter uma ideia de sua confiabilidade.\n' +
-                '\n Lembre-se de que o jogo deve ser uma forma de entretenimento e deve ser praticado com responsabilidade. Nunca gaste mais dinheiro do que você pode se dar ao luxo de perder.'}/>
+                                      description={'A escolha da melhor plataforma para jogar caça-níqueis no Brasil requer a consideração de vários fatores. Aqui estão algumas dicas para ajudá-lo a escolher:\n' +
+                                          '1. Certifique-se de que o cassino escolhido tenha um jogo Fortune Tiger. Basta digitar o nome do caça-níquel no campo de busca da plataforma do cassino.\n' +
+                                          '2. Métodos de pagamento: Certifique-se de que a plataforma ofereça métodos de pagamento seguros e convenientes para depósitos e saques.\n' +
+                                          '3. Suporte ao cliente: Uma boa plataforma deve ter um suporte ao cliente eficiente e ágil para ajudar com quaisquer problemas ou dúvidas.\n' +
+                                          '4. Bônus e promoções: Verifique se a plataforma oferece bônus e promoções atraentes para os jogadores, mas leia os termos e condições para entender os requisitos de apostas.\n' +
+                                          '5. Avaliações e reputação: Pesquise as avaliações de outros jogadores e a reputação da plataforma para ter uma ideia de sua confiabilidade.\n' +
+                                          '\n Lembre-se de que o jogo deve ser uma forma de entretenimento e deve ser praticado com responsabilidade. Nunca gaste mais dinheiro do que você pode se dar ao luxo de perder.'}/>
             <div id='title9'>
                 <ContentSection title={'Como funciona o Fortune Tiger'} image={Tiger10}
                                 description={'A slot Fortune Tiger tem uma jogabilidade bastante simples e direta. Aqui está uma explicação de como funciona a slot Fortune Tiger.\n' +
@@ -128,7 +131,9 @@ const Content = () => {
                                     'Consequentemente, é necessário depositar dinheiro real por meio de um cassino para participar do Fortune Tiger. Se ganhar, você terá a oportunidade de retirar seus ganhos diretamente para a sua conta. Mas como é todo esse processo? Vamos entrar em detalhes:'}/>
 
             </div>
-
+            <ElementsDescription/>
+            <ElementsWithPicture/>
+            <TitleWithDescription/>
             <DescriptionHeading/>
         </div>
     );
