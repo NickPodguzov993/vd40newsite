@@ -1,6 +1,6 @@
 import style from './SectionWithDescription.module.scss'
-import firstImage from '../../assets/firstImage.jpg'
-import secondImage from '../../assets/secondImage.jpg'
+import firstImage from '../../assets/ferstImage.webp'
+import secondImage from '../../assets/secondImage.webp'
 
 
 const SectionWithDescription = () => {

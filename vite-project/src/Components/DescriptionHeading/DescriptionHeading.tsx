@@ -4,7 +4,7 @@ import style from '../DescriptionHeading/DescriptionHeading.module.scss'
 const DescriptionHeading = () => {
     return (
         <div id='title9' className={style.content}>
-            <h2 className={style.title}>Heading 48</h2>
+            <h2 className={style.title}>Perguntas Frequentes</h2>
             <AccordionHeading title={'O Fortune Tiger é confiável e justo?'}
                               description={'Sim, a PG Soft, a empresa que fornece o Fortune Tiger,' +
                                   ' é certificada pelo Gaming Labs,' +

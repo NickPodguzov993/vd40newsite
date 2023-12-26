@@ -1,7 +1,7 @@
 import Tiger from '../../assets/top.webp'
 import style from '../Main/Main.module.scss'
 import Statistic from "./Statistic/Statistic";
-import tiger from '../../assets/fortuneTiger.png'
+import tiger from '../../assets/fortuneTiger.webp'
 const Main = () => {
     return (
 

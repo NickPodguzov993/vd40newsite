@@ -1,0 +1,21 @@
+.container {
+  width: 800px;
+  margin: 48px auto
+
+}
+
+.title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: var(--Text-Soft-Black, #212121);
+}
+
+.description {
+  margin-top: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
