@@ -10,7 +10,7 @@ const NavBurger = () => {
                    smooth={true}
                    offset={-70}
                    duration={500}
-            > <h3>Fortune Tiger – resumo do jogo</h3></Link>
+            > <h3>Fortune Tigerrr – resumo do jogo</h3></Link>
             <Link  to="title2"
                    spy={true}
                    smooth={true}

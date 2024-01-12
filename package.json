@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@types/react-scroll": "^1.8.10",
-    "sass": "^1.69.5"
-  }
-}
